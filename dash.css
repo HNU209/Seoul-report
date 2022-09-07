@@ -158,6 +158,12 @@ h5 {
     width: 100%;
     height: 100%;
 }
+
+.js-plotly-plot > img{
+    width: 100%;
+    height: 100%;
+}
+
 .js-plotly-plot > iframe{
     width: 100%;
     height: 100%;

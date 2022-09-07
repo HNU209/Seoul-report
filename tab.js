@@ -18,3 +18,7 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "flex";
     evt.currentTarget.className += " active";
 }
+
+const openImg = fig => {
+    window.open(`./assets/${fig}.html`);
+}
